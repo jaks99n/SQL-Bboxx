@@ -1,0 +1,5 @@
+# Welcome to my programming newbies platform
+SELECT 
+   customer full name 
+FROM
+   Customer
