@@ -2,4 +2,6 @@
 SELECT 
    customer full name 
 FROM
-   Customer
+   Customer as c
+LEFT JOIN region as r ON
+c.customer_id = r.customer_id
